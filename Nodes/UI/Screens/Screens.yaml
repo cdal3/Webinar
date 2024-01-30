@@ -628,6 +628,24 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: Button1
+    Type: Button
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Button1"}
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 714.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 813.0
 - Name: Trends
   Id: g=d538551b915a9dc8584f4c5cad04d790
   Supertype: Screen
